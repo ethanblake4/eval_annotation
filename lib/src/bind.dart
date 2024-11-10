@@ -4,5 +4,16 @@ import 'package:meta/meta_meta.dart';
 /// generator.
 @Target({TargetKind.classType})
 class Bind {
-  const Bind();
+  const Bind({this.overrideLibrary});
+
+  final String? overrideLibrary;
+}
+
+// Indicates the possible types or return types of a method or field.
+@Target(
+    {TargetKind.method, TargetKind.field, TargetKind.getter, TargetKind.setter})
+class UnionOf {
+  const UnionOf(this.types);
+
+  final List<Type> types;
 }

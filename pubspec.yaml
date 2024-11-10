@@ -1,12 +1,12 @@
 name: eval_annotation
 description: dart_eval annotation library
-version: 0.7.0
+version: 0.7.1
 repository: https://github.com/ethanblake4/eval_annotation
 
 environment:
-  sdk: '>=2.17.0 <4.0.0'
+  sdk: '>=2.19.0 <4.0.0'
 
 dev_dependencies:
-  lints: '>=2.1.0 <4.0.0'
+  lints: '>=4.0.0 <6.0.0'
 dependencies:
   meta: ^1.8.0
