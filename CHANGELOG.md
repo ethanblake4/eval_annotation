@@ -1,3 +1,6 @@
+## 0.7.2
+- Add `implicitSupers` parameter to `@Bind` annotation.
+
 ## 0.7.1
 - Added `@UnionOf` and `@AssertPermission` annotations.
 - Added `overrideLibrary` parameter to `@Bind` annotation.
