@@ -4,8 +4,15 @@ import 'package:meta/meta_meta.dart';
 /// generator.
 @Target({TargetKind.classType})
 class Bind {
-  const Bind({this.overrideLibrary, this.implicitSupers = false});
+  const Bind({
+    this.wrap,
+    this.bridge,
+    this.overrideLibrary,
+    this.implicitSupers = false
+  });
 
+  final bool? wrap;
+  final bool? bridge;
   final String? overrideLibrary;
   final bool implicitSupers;
 }

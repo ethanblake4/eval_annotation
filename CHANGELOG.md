@@ -1,3 +1,6 @@
+## 0.8.0
+- Added `bridge` parameter to `@Bind` annotation.
+
 ## 0.7.2
 - Add `implicitSupers` parameter to `@Bind` annotation.
 
