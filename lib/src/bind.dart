@@ -9,7 +9,6 @@ class Bind {
     this.bridge,
     this.overrideLibrary,
     this.implicitSupers = false,
-    this.autowrap = false,
   });
 
   /// If true, generate a wrapper class for this type.
