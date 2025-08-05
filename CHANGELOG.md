@@ -1,3 +1,6 @@
+## 0.8.1
+- Improved documentation for `@Bind` annotation.
+
 ## 0.8.0
 - Added `bridge` parameter to `@Bind` annotation.
 
